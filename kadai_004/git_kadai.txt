@@ -1,0 +1,34 @@
+PS C:\Users\takat> git init git_challenge
+Reinitialized existing Git repository in C:/Users/takat/git_challenge/.git/
+PS C:\Users\takat\git_challenge> git --version
+git version 2.42.0.windows.2
+PS C:\Users\takat\git_challenge> git add "hello_world.txt"
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\takat\git_challenge> git version
+git version 2.42.0.windows.2
+PS C:\Users\takat\git_challenge> dir
+PS C:\Users\takat\git_challenge> dir
+
+
+    ディレクトリ: C:\Users\takat\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2023/11/10     10:10             17 hello_world.txt
+
+
+PS C:\Users\takat\git_challenge> git add c:\Users\takat\git_challenge\hello_world.txt
+PS C:\Users\takat\git_challenge> git commit -m "hello_world.txtを追加しました"
+[main (root-commit) 16cd081] hello_world.txtを追加しました
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\takat\git_challenge>
+PS C:\Users\takat\git_challenge> git add c:\Users\takat\git_challenge\hello_world.txt
+PS C:\Users\takat\git_challenge> git commit -m "日本語訳を追記"
+[main b8fc7a4] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+PS C:\Users\takat\git_challenge> git log --oneline
+b8fc7a4 (HEAD -> main) 日本語訳を追記
+16cd081 hello_world.txtを追加しました
+PS C:\Users\takat\git_challenge>   
